@@ -1,6 +1,14 @@
 PODS:
   - CTMediator (25)
-  - CTMediatorTarget (0.1.0):
+  - CTMediatorTarget (0.1.2):
+    - CTMediator
+    - CTMediatorTarget/Actions (= 0.1.2)
+    - CTMediatorTarget/ModuleA (= 0.1.2)
+    - tabBarChildVCOne
+  - CTMediatorTarget/Actions (0.1.2):
+    - CTMediator
+    - tabBarChildVCOne
+  - CTMediatorTarget/ModuleA (0.1.2):
     - CTMediator
     - tabBarChildVCOne
   - tabBarChildVCOne (0.1.1)
@@ -20,7 +28,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
-  CTMediatorTarget: 1175fd0b67fb65224fd0de8a17ce3fa1115bd60b
+  CTMediatorTarget: 0d2f3a81794acb55a9186deab208c84027ac288d
   tabBarChildVCOne: e3a02656be331e722f9a3f7245c1b33eaf8f5725
 
 PODFILE CHECKSUM: be95ad50164848ba7d6447f318d8af9b7731c28c

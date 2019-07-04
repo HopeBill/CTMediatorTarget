@@ -1,6 +1,6 @@
 {
   "name": "CTMediatorTarget",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "组件与组件之间的通信",
   "description": "组件与组件之间的通信",
   "homepage": "https://github.com/LiBiYong/CTMediatorTarget",
@@ -13,12 +13,11 @@
   },
   "source": {
     "git": "https://github.com/LiBiYong/CTMediatorTarget.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CTMediatorTarget/Classes/**/*",
   "dependencies": {
     "CTMediator": [
 
@@ -26,5 +25,15 @@
     "tabBarChildVCOne": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Actions",
+      "source_files": "CTMediatorTarget/Classes/Actions/*"
+    },
+    {
+      "name": "ModuleA",
+      "source_files": "CTMediatorTarget/Classes/ModuleA/*"
+    }
+  ]
 }

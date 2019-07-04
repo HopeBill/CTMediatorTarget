@@ -7,7 +7,7 @@
 //
 
 #import "yyViewController.h"
-
+#import "CTMediator+ModuleAActions.h"
 @interface yyViewController ()
 
 @end
@@ -17,7 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+//    // Do any additional setup after loading the view, typically from a nib.
+    UIViewController * vc=[[CTMediator sharedInstance] CTMediator_tabBarViewControllerOne];
+    NSLog(@"%@",vc);
 }
 
 - (void)didReceiveMemoryWarning

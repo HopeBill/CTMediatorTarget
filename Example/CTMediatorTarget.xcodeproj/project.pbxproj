@@ -23,8 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A956A77422CE0977004EE4CB /* CTMediator+ModuleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = A956A77022CE0977004EE4CB /* CTMediator+ModuleActions.m */; };
 		A956A77522CE0977004EE4CB /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = A956A77222CE0977004EE4CB /* Target_A.m */; };
+		A956A78A22CE36C2004EE4CB /* CTMediator+ModuleAActions.m in Sources */ = {isa = PBXBuildFile; fileRef = A956A78922CE36C2004EE4CB /* CTMediator+ModuleAActions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,10 +63,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A956A76F22CE0977004EE4CB /* CTMediator+ModuleActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleActions.h"; sourceTree = "<group>"; };
-		A956A77022CE0977004EE4CB /* CTMediator+ModuleActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleActions.m"; sourceTree = "<group>"; };
 		A956A77222CE0977004EE4CB /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 		A956A77322CE0977004EE4CB /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		A956A78822CE36C2004EE4CB /* CTMediator+ModuleAActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleAActions.h"; sourceTree = "<group>"; };
+		A956A78922CE36C2004EE4CB /* CTMediator+ModuleAActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleAActions.m"; sourceTree = "<group>"; };
 		AA6929721D6B77D395EAFDC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AAE729A610C6E28C01C1DDB1 /* Pods-CTMediatorTarget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorTarget_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTMediatorTarget_Example/Pods-CTMediatorTarget_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AF71677D5A2D0481D9B3C9D1 /* Pods_CTMediatorTarget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTMediatorTarget_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,8 +217,8 @@
 		A956A76E22CE0977004EE4CB /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				A956A76F22CE0977004EE4CB /* CTMediator+ModuleActions.h */,
-				A956A77022CE0977004EE4CB /* CTMediator+ModuleActions.m */,
+				A956A78822CE36C2004EE4CB /* CTMediator+ModuleAActions.h */,
+				A956A78922CE36C2004EE4CB /* CTMediator+ModuleAActions.m */,
 			);
 			path = ModuleA;
 			sourceTree = "<group>";
@@ -388,8 +388,8 @@
 				6003F59E195388D20070C39A /* yyAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* yyViewController.m in Sources */,
 				A956A77522CE0977004EE4CB /* Target_A.m in Sources */,
+				A956A78A22CE36C2004EE4CB /* CTMediator+ModuleAActions.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				A956A77422CE0977004EE4CB /* CTMediator+ModuleActions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

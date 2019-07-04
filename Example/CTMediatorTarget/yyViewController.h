@@ -9,5 +9,5 @@
 @import UIKit;
 
 @interface yyViewController : UIViewController
-
+@property(nonatomic,strong)NSDictionary *dic;
 @end
