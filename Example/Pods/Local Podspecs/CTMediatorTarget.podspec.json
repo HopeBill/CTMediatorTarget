@@ -1,0 +1,30 @@
+{
+  "name": "CTMediatorTarget",
+  "version": "0.1.0",
+  "summary": "组件与组件之间的通信",
+  "description": "组件与组件之间的通信",
+  "homepage": "https://github.com/LiBiYong/CTMediatorTarget",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1255418023@qq.com": "1255418023@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LiBiYong/CTMediatorTarget.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CTMediatorTarget/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ],
+    "tabBarChildVCOne": [
+
+    ]
+  }
+}

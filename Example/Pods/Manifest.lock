@@ -1,0 +1,28 @@
+PODS:
+  - CTMediator (25)
+  - CTMediatorTarget (0.1.0):
+    - CTMediator
+    - tabBarChildVCOne
+  - tabBarChildVCOne (0.1.1)
+
+DEPENDENCIES:
+  - CTMediatorTarget (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+  https://github.com/LiBiYong/SpecsLibrary.git:
+    - tabBarChildVCOne
+
+EXTERNAL SOURCES:
+  CTMediatorTarget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  CTMediatorTarget: 1175fd0b67fb65224fd0de8a17ce3fa1115bd60b
+  tabBarChildVCOne: e3a02656be331e722f9a3f7245c1b33eaf8f5725
+
+PODFILE CHECKSUM: be95ad50164848ba7d6447f318d8af9b7731c28c
+
+COCOAPODS: 1.5.3
