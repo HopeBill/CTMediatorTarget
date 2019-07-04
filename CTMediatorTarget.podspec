@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CTMediatorTarget'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '组件与组件之间的通信'
 
   s.description      = '组件与组件之间的通信'

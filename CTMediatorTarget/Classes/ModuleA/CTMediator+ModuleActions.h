@@ -6,8 +6,7 @@
 //  Copyright © 2016年 casa. All rights reserved.
 //
 
-#import "CTMediator.h"
-#import <UIKit/UIKit.h>
+#import <CTMediator/CTMediator.h>
 
 @interface CTMediator (ModuleActions)
 
